@@ -37,7 +37,11 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    transition: transform 0.3s ease;
+}
+.project:hover{
+    transform: scale(1.1)
 }
 .info-pic{
     border-radius: 10px;
@@ -51,6 +55,7 @@ h3{
 }
 .date{
     margin:20px 0;
+    font-size: 0.875rem;
     color:#4d5562 ;
 }
 @media (min-width:1024px){
